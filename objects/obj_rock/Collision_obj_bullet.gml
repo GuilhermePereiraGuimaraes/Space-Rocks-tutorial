@@ -12,5 +12,5 @@ else if (instance_number(obj_rock) < 12){
 else {
 	instance_destroy();
 }
-
+audio_play_sound(snd_rockdestroy, 0, false);
 obj_game.points += 50;
